@@ -1,3 +1,10 @@
+/*
+ * Name: $RCSfile: AcMyContact.java,v $
+ * Version: $Revision: 1.00 $
+ * Date: $Date: 2013/04/10 18:17:50 $
+ *
+ * Copyright (C) 2013 FPT Software. All rights reserved.
+ */
 package com.vietnamairline.vnaandroid.myaccount;
 
 import android.os.Bundle;
@@ -10,7 +17,7 @@ import com.vietnamairline.vnaandroid.R;
 
 public class AcMyContact extends Fragment{
 
-	/* (non-Javadoc)
+	/**
 	 * @see android.support.v4.app.Fragment#onCreateView(android.view.LayoutInflater, android.view.ViewGroup, android.os.Bundle)
 	 */
 	@Override
