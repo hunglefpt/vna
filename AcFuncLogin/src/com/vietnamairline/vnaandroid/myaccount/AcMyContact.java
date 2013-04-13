@@ -15,11 +15,8 @@ import android.view.ViewGroup;
 
 import com.vietnamairline.vnaandroid.R;
 
-public class AcMyContact extends Fragment{
-
-	/**
-	 * @see android.support.v4.app.Fragment#onCreateView(android.view.LayoutInflater, android.view.ViewGroup, android.os.Bundle)
-	 */
+public class AcMyContact extends Fragment
+{
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
