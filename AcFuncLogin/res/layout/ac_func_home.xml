@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/homebg_new"
+    android:orientation="vertical" >
+
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/header_bar"
+        android:gravity="center_vertical"
+        android:padding="10dp" >
+        
+	    <ImageView 
+	        android:id="@+id/home"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/logobsv"
+	        android:contentDescription="@string/blank" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txvNewPromotion"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_transparent_item_clickable"
+                android:clickable="true"
+                android:padding="10dp"
+                android:drawableRight="@drawable/ic_launcher"
+                android:gravity="center_vertical"
+                android:text="@string/lbHome_New_promotion"
+                android:textColor="@android:color/white" />
+            
+            <View 
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="#70adc1"/>
+            
+            <TextView
+                android:id="@+id/txvMyAccount"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_transparent_item_clickable"
+                android:clickable="true"
+                android:padding="10dp"
+                android:drawableRight="@drawable/ic_launcher"
+                android:gravity="center_vertical"
+                android:text="@string/lbHome_MyAccount"
+                android:textColor="@android:color/white" />
+            
+            <View 
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="#70adc1"/>
+            
+            <TextView
+                android:id="@+id/txvClaimMissingMiles"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_transparent_item_clickable"
+                android:clickable="true"
+                android:padding="10dp"
+                android:drawableRight="@drawable/ic_launcher"
+                android:gravity="center_vertical"
+                android:text="@string/lbHome_ClaimMissingMiles"
+                android:textColor="@android:color/white" />
+            
+            <View 
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="#70adc1"/>
+            
+            <TextView
+                android:id="@+id/txvRegisterPromotion"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_transparent_item_clickable"
+                android:clickable="true"
+                android:padding="10dp"
+                android:drawableRight="@drawable/ic_launcher"
+                android:gravity="center_vertical"
+                android:text="@string/lbHome_RegisterPromotion"
+                android:textColor="@android:color/white" />
+            
+            <View 
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="#70adc1"/>
+            
+            <TextView
+                android:id="@+id/txvMileEstimation"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_transparent_item_clickable"
+                android:clickable="true"
+                android:padding="10dp"
+                android:drawableRight="@drawable/ic_launcher"
+                android:gravity="center_vertical"
+                android:text="@string/lbHome_MileEstimation"
+                android:textColor="@android:color/white" />
+            
+            <View 
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="#70adc1"/>
+            
+            <TextView
+                android:id="@+id/txvRedeemMiles"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_transparent_item_clickable"
+                android:clickable="true"
+                android:padding="10dp"
+                android:drawableRight="@drawable/ic_launcher"
+                android:gravity="center_vertical"
+                android:text="@string/lbHome_RedeemMiles"
+                android:textColor="@android:color/white" />
+            
+            <View 
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="#70adc1"/>
+            
+            <TextView
+                android:id="@+id/txvBuyOrTransMile"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_transparent_item_clickable"
+                android:clickable="true"
+                android:padding="10dp"
+                android:drawableRight="@drawable/ic_launcher"
+                android:gravity="center_vertical"
+                android:text="@string/lbHome_BuyOrTransferMiles"
+                android:textColor="@android:color/white" />
+            
+            <View 
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="#70adc1"/>
+            
+            <TextView
+                android:id="@+id/txvSendRequest"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_transparent_item_clickable"
+                android:clickable="true"
+                android:padding="10dp"
+                android:drawableRight="@drawable/ic_launcher"
+                android:gravity="center_vertical"
+                android:text="@string/lbHome_SendRequest"
+                android:textColor="@android:color/white" />
+            
+            <View 
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="#70adc1"/>
+            
+            <TextView
+                android:id="@+id/txvMore"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_transparent_item_clickable"
+                android:clickable="true"
+                android:padding="10dp"
+                android:drawableRight="@drawable/ic_launcher"
+                android:gravity="center_vertical"
+                android:text="@string/lbHome_More"
+                android:textColor="@android:color/white" />
+            
+            <View 
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="#70adc1"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

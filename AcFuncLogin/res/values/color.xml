@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="Gray91">#E8E8E8</color>
+    <color name="Gray81">#CFCFCF</color>
+    <color name="Gray61">#9C9C9C</color>
+    <color name="LightGray">#D3D3D3</color>
+    <color name="DodgerBlue3">#1874CD</color>
+    <color name="Orange1">#FFA500</color>
+    <color name="DeepSkyBlue4">#00688B</color>
+    <color name="SkyBlue">#33B5E5</color>
+    <color name="Gold1">#FFD700</color>
+
+</resources>

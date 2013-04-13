@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="aCarrier">
+        
+        <item>VNA</item>
+        <item>CBA</item>
+        <item>LAA</item>
+        <item>RSA</item>
+    </string-array>
+    <string-array name="aFlightClass">
+        <item>C</item>
+        <item>D</item>
+        <item>J</item>
+        <item>Y</item>
+        <item>B</item>
+        <item>H</item>
+        <item>L</item>
+        <item>M</item>
+    </string-array>
+    <string-array name="aFlightFrom">
+        <item >@string/CMM_SELECT_COUNTRY</item>
+        <item>HAN</item>
+        <item>LHR</item>
+        <item>PRG</item>
+        <item>CNA</item>
+        <item>KRA</item>
+    </string-array>
+    
+</resources>

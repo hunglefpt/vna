@@ -1,0 +1,77 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/homebg_new"
+    tools:context=".AcFuncLogin" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+        
+        <ImageView 
+            android:id="@+id/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:src="@drawable/logo"
+            android:contentDescription="@string/blank" />
+        
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            style="@style/EditTextdox3_holo"
+            android:ems="12"
+            android:hint="@string/lbEmail" />
+        
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            style="@style/EditTextdox3_holo"
+            android:ems="12"
+            android:hint="@string/lbPassword" />
+        
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="10dp"
+	        android:textColor="#fff"
+	        android:text="@string/lbLoginForgotPassword" />
+	    
+        <Button
+            android:id="@+id/btLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_yellow_button"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/lbLogin" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:textColor="#fff"
+            android:text="@string/lbLoginDontHaveAnAccount" />
+        
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_blue_light_button"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/lbEnrollment" />  
+    </LinearLayout>
+
+</ScrollView>
